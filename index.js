@@ -11,5 +11,16 @@ let randomImgSrc2 = "images/" + randomDiceMG2;
 let image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomImgSrc2);
 
+if(randomNumber1 > randomNumber2) {
+    document.querySelector("h3").innerHTML = "Winner: Player 1";
+} else if(randomNumber2 > randomNumber1) {
+    document.querySelector("h3").innerHTML = "Winner: Player 2";
+} else {
+    document.querySelector("h3").innerHTML = "Nobody Wins. It's A Tie.";
+}
+
+
+
+
 
 
