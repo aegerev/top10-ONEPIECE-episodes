@@ -1,0 +1,40 @@
+body {
+    background-color: #D98719;
+  }
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+
+  h1 {
+    margin: 40px;
+    font-family: 'Anton';
+    text-shadow: 5px 0 #FF0000;
+    font-size: 7rem;
+    color: #0000FF;
+  }
+
+  p {
+    font-size: 3rem;
+    color: #7FFF00;
+    font-family:'Chewy', cursive;
+  }
+
+  img {
+    width: 85%;
+  }
+
+  footer {
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Ma Shan Zheng', cursive;
+  }
+
